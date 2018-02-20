@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var secrets = require(__dirname + '/../secrets.json');
-var google = require('googleapis');
+var {google} = require('googleapis');
 
 var fs = require('fs');
 
